@@ -27,11 +27,11 @@ unzip playground-series-s5e11.zip -d dataset
 
 - The dataset includes:
 
-train.csv — borrower features + target variable (loan_paid_back)
+- train.csv — borrower features + target variable (loan_paid_back)
 
-test.csv — borrower features for prediction
+- test.csv — borrower features for prediction
 
-sample_submission.csv — format for submission
+- sample_submission.csv — format for submission
 
 ⚙️ **Tech Stack & Libraries**
 
@@ -57,6 +57,6 @@ sample_submission.csv — format for submission
 
 - Prediction — generated final probabilities for submission.
 
-📈 Results
+📈 **Results**
 
-The deep learning model achieved an AUC score of ~0.87 on validation data, demonstrating strong ability to differentiate between good and risky borrowers.
+- The deep learning model achieved an AUC score of ~0.87 on validation data, demonstrating strong ability to differentiate between good and risky borrowers.
